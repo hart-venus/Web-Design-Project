@@ -10,7 +10,7 @@ body {
 img {
     
     height: 300px;
-
+    padding: 16px;
 }
 h2 {
     font-size: 24px;
@@ -68,4 +68,22 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+}
+
+.secondpart {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.secondpart h1 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+}
+.box {
+    margin: 32px;
 }

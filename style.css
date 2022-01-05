@@ -66,9 +66,9 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.herotext button {
     background-color: #3882F6;
-    border: 0;
+    border: 0px;
     border-radius: 8px;
     padding: 8px 32px;
     color: #F9FAF8;
@@ -102,13 +102,47 @@ button {
 .thirdpart {
     background-color: #E5E7EB;
     display: flex;
-    padding: 80px;
+    padding: 160px;
     justify-content: center;
 
 }
 
-.quote{
+.quotetext{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+.fourthpart {
+    background-color: #f9f9f9;
+    padding: 200px;
+}
+.calltoactionbox {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.calltoactionbox button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border-color: white;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
 }
